@@ -1,0 +1,714 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+	background: #DDDDDD;
+}
+
+.head{
+	width: 100%;
+	height: 81px;
+	background: black;
+}
+
+.info{
+	width: 900px;
+	height: 81px;
+	background: black;
+	float: left;
+}
+
+.logo{
+	width: 180px;
+	height: 81px;
+	background: black;
+	float: left;
+	margin: 0px 48px 0px 16px;
+	text-align: center;
+}
+
+.logo2{
+	width: 176px;
+	height: 80px;
+	background: black;
+	padding: 0.5px;
+}
+
+
+.info ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+.info ul li {
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+.info ul li a{
+	color: #d41002;
+	padding: 29px 30px;
+	font-size: 20px	;
+	font-family: 'Russo One', sans-serif;
+	text-decoration: none;
+/*	padding-right: 50px;*/
+	display: block;
+	text-align: center;
+}
+
+.info ul li a:hover{
+	color: white;
+}
+
+.info ul li ul{
+	position: absolute;
+	left: -12px;
+	top: 81px;
+	visibility: hidden;
+}
+.info ul li ul li{
+	width: 200px;
+	height: 81px;
+	background: black;
+}
+
+.info ul li:hover ul{
+	visibility: visible;
+}
+
+.button{
+	width: 410px;
+	height: 81px;
+	background: black;
+	float: right;
+}
+
+.button ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+.button ul li a{
+	text-decoration: none;
+	position: absolute;
+	top: 28.5px;
+	right: 113.5px;
+	font-size: 20px	;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+}
+
+.button ul h1 a{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	position: absolute;
+	font-size: 10px;
+	color: white;
+	top: 53.5px;
+	right: 120px;
+}
+
+.button ul li a:hover{
+	position: absolute;
+	top: 23.5px;
+	right: 113.5px;
+	margin-bottom: 30px;
+}
+
+.body{
+	width: 100%;
+	height: auto;
+	background: black;
+}
+ 
+.content1 {
+/*	width: auto;*/
+	height: 800px;
+	background: url("../images/home-bg.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.trailer{
+	width: 100%;
+	max-width: 410px;
+	float: right;
+/*	padding: 280px 0px 0px 0px*/
+	position: absolute;
+	top: 350px;
+	right: 320px;
+}
+
+.content2 {
+	width: 100%;
+	height: auto;
+	background: black;
+	text-align: center;
+}
+
+.come{
+	width: 100%;
+	height: 200px;
+	background: black;
+	text-align: center;
+}
+
+.come ul h1 a{
+	font-size: 64px;
+	color: #D41002;
+	text-decoration: none;
+	font-family: 'Russo One', sans-serif;
+}
+
+.text-come{
+	width: 1100px;
+	height: 100px;
+	display: inline-block;
+	margin: -45px 0px 0px 0px;
+}
+
+.text-come ul h2 a{
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ingame{
+	width: 1120px;
+	height: 600px;
+	background: black;
+	display: inline-block;
+	padding: 56.5px 0px;
+	text-align: center;
+	
+}
+
+.panel1{
+	width: 365px;
+	height: 487px;
+	background: gray;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+}
+
+.panel1 ul li a{
+	font-size: 32px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: 395px;
+}
+
+.panel2{
+	width: 365px;
+	height: 487px;
+	background: gray;
+	display: inline-block;
+	margin: 0px 7.5px 0px 7.5px;
+	text-align: left;
+	position: relative;
+}
+
+.panel2 ul li a{
+	font-size: 32px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: 395px;
+}
+	
+.panel3{
+	width: 365px;
+	height: 487px;
+	background: gray;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+}
+
+.panel3 ul li a{
+	font-size: 32px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: 395px;
+}
+
+.content3 {
+	width: 100%;
+	height: auto;
+	background: chocolate;
+}
+
+.background3{
+	height: 1000px;
+	background: url("../images/red-2-bg.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	text-align: center;
+	position: relative;
+}
+
+.social-bar{
+	width: 100%;
+	height: 115px;
+/*	background: white;*/
+	position: absolute;
+	top: 100px;
+	text-align: center;
+}
+
+.social-bar2{
+	width: 562px;
+	height: 51px;
+/*	background: gray;*/
+	display: inline-block;
+	margin-top: 32px;
+	position: relative;
+}
+
+.follow{
+	width: 199px;
+	height: 51px;
+	float: left;
+	margin: 0px 48px 0px 0px;
+}
+
+.follow h1{
+	font-size: 32px;
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: -15px;
+}
+
+.icon{
+	width: 315px;
+	height: 51px;
+/*	background: wheat;*/
+	float: right;
+}
+
+.yt{
+	width: 32px;
+	height: 32px;
+	margin: 9.5px 33px 0px 0px;
+	float: left;
+}
+
+.fb{
+	width: 55px;
+	height: 32px;
+	margin: 9.5px 33px 0px 0px;
+	float: left;
+}
+
+.twitter{
+	width: 32px;
+	height: 32px;
+	margin: 9.5px 33px 0px 0px;
+	float: left;
+}
+
+.ins{
+	width: 32px;
+	height: 32px;
+	margin: 9.5px 33px 0px 0px;
+	float: left;
+}
+
+.dis{
+	width: 32px;
+	height: 32px;
+	margin: 9.5px 0px 0px 0px;
+	float: left;
+}
+
+.join{
+	width: 246px;
+	height: 49px;
+	background: #CBB4B5;
+	display: inline-block;
+	margin: 260px 0px 0px 0px;
+	position: relative;
+}
+
+/*
+.joinT{
+	width: 250px;
+	height: 20px;
+}
+*/
+
+.join ul li{
+	list-style: none;
+	position: absolute;
+	top: 14px;
+	left: 16px;
+}
+
+.join ul li:hover{
+	position: absolute;
+	top: 14px;
+	left: 18px;
+}
+
+.join ul li a{
+	font-size: 16px;
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	text-decoration: none;
+/*	position: absolute;*/
+}
+
+.guns{
+	width: 100%;
+	height: 520px;
+	background: black;
+	display: inline-block;
+	margin: 170px 0px 0px 0px;
+	text-align: center;
+}
+
+.guns2{
+	width: 1140px;
+	height: 519px;
+	background: black;
+	display: inline-block;
+	position: relative;
+}
+
+.fort{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 25px;
+	left: 120px;
+}
+
+.fort h1{
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	font-size: 32px;
+	line-height: 46px;
+}
+
+.button2{
+	width: 216px;
+	height: 49px;
+	background: black;
+	position: absolute;
+	top: 200px;
+	left: 260px;
+}
+
+.button2 ul li{
+	position: absolute;
+	top: 14px;
+	left: 27px;
+	list-style: none;
+}
+
+.button2 ul li:hover{
+	position: absolute;
+	top: 12px;
+	left: 27px;
+}
+
+.button2 ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Russo One', sans-serif;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.content4 {
+	width: 100%;
+	height: auto;
+	background: #EBB3BD;
+}
+
+.discover{
+	height: 400px;
+	background: url("../images/grunge-1200x300 re.png");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	text-align: center;
+	margin: 48px 0px 0px 0px;
+}
+
+.discover2{
+	width: 1304px;
+	height: 400px;
+/*	background: gray;*/
+	display: inline-block;
+}
+
+.findout{
+	width: 498px;
+	height: 400px;
+	background: white;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+
+.findout h1{
+	color: white;
+	font-size: 62px;
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: 190px;
+	left: 35px;
+}
+
+.thumbs{
+	width: 799px;
+	height: 400px;
+/*	background: #846667;*/
+	float: right;
+	text-align: center;
+}
+
+.fom1{
+	width: 260px;
+	height: 400px;
+	background: #9A5556;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+}
+
+.fom1 ul li{
+	list-style: none;
+}
+
+.fom1 ul li a:hover{
+	color: #D41002;
+	position: absolute;
+	top: 350px;
+	left: 45px;
+}
+
+.fom1 ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: 350px;
+	left: 35px;
+}
+
+.fom2{
+	width: 260px;
+	height: 400px;
+	background: #366093;
+	display: inline-block;
+	margin: 0px 5px 0px 5px;
+	position: relative;
+}
+
+.fom2 ul li{
+	list-style: none;
+}
+
+.fom2 ul li a:hover{
+	color: #D41002;
+	position: absolute;
+	top: 350px;
+	left: 45px;
+}
+
+.fom2 ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: 350px;
+	left: 35px;
+}
+
+.fom3{
+	width: 260px;
+	height: 400px;
+	background: #61C069;
+	display: inline-block;
+	position: relative;
+}
+
+.fom3 ul li{
+	list-style: none;
+}
+
+.fom3 ul li a:hover{
+	color: #D41002;
+	position: absolute;
+	top: 350px;
+	left: 45px;
+}
+
+.fom3 ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	top: 350px;
+	left: 35px;
+}
+
+.footer{
+	width: 100%;
+	height: 449px;
+	background: black;
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+.garden{
+	width: 1140px;
+	height: 349px;
+	background: black;
+	padding: 0px 15px;
+	display: inline-block;
+	text-align: center;
+}
+
+.logo-garden1{
+	width: 1110px;
+	height: 105px;
+	background: black;
+	display: inline-block;
+	text-align: center;
+}
+
+.wb{
+	width: 75px;
+	height: 53px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.turtle{
+	width: 100px;
+	height: 68px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.logo-garden2{
+	width: 850px;
+	height: 92px;
+	display: inline-block;
+	text-align: center;
+	background: black;
+}
+
+.ps4{
+	width: 77px;
+	height: 16px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.ps5{
+	width: 72px;
+	height: 16px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.xbox1{
+	width: 98px;
+	height: 20px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.xboxSX{
+	width: 133px;
+	height: 19px;
+	display: inline-block;
+	margin: 0px 28px 30px; 
+}
+
+.xboxGP{
+	width: 154px;
+	height: 19px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.windows{
+	width: 86px;
+	height: 19px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.steam{
+	width: 70px;
+	height: 22px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.epic{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 0px 28px 30px;
+}
+
+.legal-rating{
+	width: 1110px;
+	height: 152px;
+	display: inline-block;
+	background: black;
+	text-align: center;
+}
+
+.legal{
+	width: 477px;
+	height: 70px;
+	display: inline-block;
+	text-align: left;
+	line-height: 13px;
+	padding: 30px 0px 0px;
+}
+
+.legal h1{
+	color: white;
+	font-size: 9px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.pegi{
+	width: 62px;
+	height: 75px;
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+
